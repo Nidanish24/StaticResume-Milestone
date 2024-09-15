@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(223, 203, 203);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#mainDiv{
+    background-color: rgb(182, 179, 175);
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 2px solid;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+border-radius: 50%;
+}
+
+.per{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.per h1{
+    font-size: 36px;
+}
+
+.per h2{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.inf{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.para{
+display: inline-block;
+font-size: 15px;
+font-weight: 600;
+
+}
+
+.heading{
+    font-size: 24px;
+    background-color: bisque;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.para1{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#skillSec ul{
+    margin-left: 25px;
+}
+
+#btnDiv{
+    background-color: rgb(216, 210, 200);
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 4px solid;
+    text-transform: uppercase;
+}
+
+.btn{
+width: auto;
+height: 40px;
+font-size: 16px;
+font-weight: 600;
+padding: 10px;
+border-radius: 6px;
+}
+
+.sp{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn:active{
+transform: scale(1.02);
+background-color: bisque;
+}
+
+#objectiveSec{
+    display: block;
+}
+
+#eduSec{
+    display: block;
+}
+
+#skillSec{
+   display: block; 
+}
+
+#workExpSec{
+    display: block;
+}
